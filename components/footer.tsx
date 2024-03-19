@@ -40,7 +40,7 @@ const Footer = () => {
                         <DialogHeader>
                             <DialogTitle>You are not authorized!</DialogTitle>
                             <DialogDescription>
-                                If you want to enable contact route you <span className="underline">must be logged in</span>. Please log in or register if you don't.
+                                If you want to enable contact route you <span className="underline">must be logged in</span>. Please log in or register if you don&apos;t.
                             </DialogDescription>
                         </DialogHeader>
                     </DialogContent>

@@ -4,7 +4,6 @@ import {
     Sheet,
     SheetClose,
     SheetContent,
-    SheetDescription,
     SheetHeader,
     SheetTitle,
     SheetTrigger,
@@ -121,7 +120,7 @@ const MobileSheet = () => {
                                 <DialogHeader>
                                     <DialogTitle>You are not authorized!</DialogTitle>
                                     <DialogDescription>
-                                        If you want to enable the contact route, you <span className="underline">must be logged in</span>. Please log in or register if you're not.
+                                        If you want to enable the contact route, you <span className="underline">must be logged in</span>. Please log in or register if you&apos;re not.
                                     </DialogDescription>
                                 </DialogHeader>
                             </DialogContent>

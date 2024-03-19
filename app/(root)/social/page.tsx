@@ -51,8 +51,8 @@ const SocialPage = () => {
     return (
         <div className="px-5 lg:px-20 flex gap-x-10 min-h-[76vh] justify-center items-center">
             <TooltipProvider>
-                {social.map((social) => (
-                    <Tooltip>
+                {social.map((social, index) => (
+                    <Tooltip key={index}>
                         <TooltipTrigger>
                             <Button
                                 variant={"outline"}
