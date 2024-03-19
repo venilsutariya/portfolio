@@ -1,12 +1,10 @@
 import { Button } from "@/components/ui/button";
-import { SignInButton, UserButton } from "@clerk/nextjs";
+import { ClerkLoaded, ClerkLoading, SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { MdLogin } from "react-icons/md";
-import { auth } from '@clerk/nextjs';
 import MobileSheet from "./mobile-sheet";
+import { Loader } from "lucide-react";
 
 export const Navbar = () => {
-
-    const { userId }: { userId: string | null } = auth();
 
     return (
         <div className="border-b px-3 py-4 backdrop-blur-xl bg-white/50 dark:bg-black/50">
@@ -26,19 +24,27 @@ export const Navbar = () => {
                     <MobileSheet />
                 </div>
                 <div>
-                    {!userId ? (
-                        <SignInButton mode="modal">
-                            <Button
-                                variant={"outline"}
-                                className="flex items-center gap-x-2"
-                            >
-                                <MdLogin size={18} />
-                                Login
-                            </Button>
-                        </SignInButton>
-                    ) : (
-                        <UserButton afterSignOutUrl="/" />
-                    )}
+                    <ClerkLoading>
+                        <Button variant={"outline"}>
+                            <Loader className="h-4 w-4 animate-spin" />
+                        </Button>
+                    </ClerkLoading>
+                    <ClerkLoaded>
+                        <SignedOut>
+                            <SignInButton mode="modal">
+                                <Button
+                                    variant={"outline"}
+                                    className="flex items-center gap-x-2"
+                                >
+                                    <MdLogin size={18} />
+                                    Login
+                                </Button>
+                            </SignInButton>
+                        </SignedOut>
+                        <SignedIn>
+                            <UserButton afterSignOutUrl="/" />
+                        </SignedIn>
+                    </ClerkLoaded>
                 </div>
             </div>
         </div>
