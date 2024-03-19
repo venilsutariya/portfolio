@@ -21,7 +21,7 @@ const Projects = ({ filter }: ProjectsProps) => {
                                         <img src={p.imageUrl} className='object-cover imageani w-full h-full' alt="" />
                                     </div>
                                 </div>
-                                <div className=' p-3'>
+                                <div className='bg-white text-black dark:bg-black text-white p-3'>
                                     <div className='text-xl sm:text-lg md:text-xl lg:text-lg xl:text-xl font-semibold'>{p.name}</div>
                                     <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div>
                                 </div>
