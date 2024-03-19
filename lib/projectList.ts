@@ -38,14 +38,14 @@ export const projectList = [
     name: "BookmyBox",
     tech: "Nodejs, nodemailer, express, MongoDB",
     imageUrl: "/images/bookmybox.png",
-    href: "https://github.com/venilsutariya/Next-Auth",
+    href: "https://github.com/venilsutariya/BookmyBoxbackend",
     filter: "Node.js,MongoDB,express,Typescript",
   },
   {
     name: "AI-SaaS image generator",
     tech: "React.js, Node.js ,Cloudinary, MongoDB",
     imageUrl: "/images/imaginify.png",
-    href: "https://github.com/venilsutariya/Next-Auth",
+    href: "https://github.com/venilsutariya/AI-SaaS-Image-Generator",
     filter: "React.js,Node.js,MongoDB,Tailwind",
   },
   {
