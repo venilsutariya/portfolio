@@ -2,7 +2,7 @@
 
 import { IoShareSocialSharp } from "react-icons/io5";
 import { Button } from "@/components/ui/button";
-import { Compass, Contact, FileText, Info, Loader } from "lucide-react";
+import { Compass, Contact, FileText, Info, Loader, PackageSearch } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import {
@@ -40,6 +40,11 @@ const Sidebar = () => {
             name: "Resume",
             icon: FileText,
             href: "/resume",
+        },
+        {
+            name: "Products",
+            icon: PackageSearch,
+            href: "/products",
         },
     ];
 
