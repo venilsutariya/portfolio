@@ -27,7 +27,7 @@ function WhatIKnow() {
                         <div className='flex flex-wrap'>
                             {item.tech.map((tech, index) => (
                                 <button key={index} className={`text-xs p-2 cursor-default border-2 border-opacity-70 me-2 mb-2 rounded-md
-                            ${tech === "Tailwind" ? "border-blue-500" : tech === "Javascript" ? "border-yellow-500" : tech === "Reactjs" ? "border-blue-500" : tech === "Node Js" ? "border-green-500" : tech === "MongoDB" ? "border-green-500" : "border-black"}
+                            ${tech === "Tailwind" ? "border-blue-500" : tech === "Javascript" ? "border-yellow-500" : tech === "Reactjs" ? "border-blue-500" : tech === "Node Js" ? "border-green-500" : tech === "MongoDB" ? "border-green-500" : "border-black dark:border-white/20"}
                             `}>
                                     {tech}
                                 </button>
