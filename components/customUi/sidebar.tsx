@@ -41,11 +41,6 @@ const Sidebar = () => {
             icon: FileText,
             href: "/resume",
         },
-        // {
-        //     name: "Products",
-        //     icon: PackageSearch,
-        //     href: "/products",
-        // },
     ];
 
     return (
