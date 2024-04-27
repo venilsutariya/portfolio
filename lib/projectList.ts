@@ -43,7 +43,7 @@ export const projectList = [
   },
   {
     name: "AI-SaaS image generator",
-    tech: "React.js, Node.js ,Cloudinary, MongoDB",
+    tech: "React.js, Node.js ,Cloudinary",
     imageUrl: "/images/imaginify.png",
     href: "https://github.com/venilsutariya/AI-SaaS-Image-Generator",
     filter: "React.js,Node.js,MongoDB,Tailwind",
