@@ -15,7 +15,7 @@ export const projectList = [
   },
   {
     name: "Spark",
-    tech: "Next.js 13, React.js, Tailwind, Clerk",
+    tech: "Next.js 13, React.js, Tailwind, Clerk, Convex",
     imageUrl: "/images/spark.png",
     href: "https://github.com/venilsutariya/spark",
     filter: "Next.js,Tailwind,Clerk,Typescript",
@@ -50,7 +50,7 @@ export const projectList = [
   },
   {
     name: "E-commerce",
-    tech: "React.js, Node.js ,MongoDB",
+    tech: "React.js, Node.js ,MongoDB, Tailwind",
     imageUrl: "/images/ecommerce.webp",
     href: "https://github.com/venilsutariya/E-commerce",
     filter: "React.js,Node.js,MongoDB",
