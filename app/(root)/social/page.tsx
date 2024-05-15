@@ -49,7 +49,7 @@ const SocialPage = () => {
         }
     }
     return (
-        <div className="px-5 lg:px-20 flex gap-x-10 min-h-[76vh] justify-center items-center">
+        <div className="px-5 lg:px-20 flex gap-x-10 min-h-[72vh] justify-center items-center">
             <TooltipProvider>
                 {social.map((social, index) => (
                     <Tooltip key={index}>

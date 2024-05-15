@@ -26,15 +26,15 @@ const Projects = ({ filter }: ProjectsProps) => {
                                     <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div>
                                 </div>
                                 <div className="mt-4 mb-3 px-3">
-                                    {p.href ? (
+                                    {p.name !== "Sitenote" ? (
                                         <a href={p.href} className="no-underline text-black dark:text-white" target="_blank" rel="noreferrer">
                                             <Button variant={"outline"}>
                                                 View Code
                                             </Button>
                                         </a>
                                     ) : (
-                                        <Button variant={"outline"} className="cursor-not-allowed text-black dark:text-white">
-                                            Private
+                                        <Button variant={"outline"} className="text-black dark:text-white">
+                                            Go to website
                                         </Button>
                                     )}
                                 </div>

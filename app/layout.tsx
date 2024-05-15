@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { GeistSans } from 'geist/font/sans';
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
-
-const font = Poppins({ 
-subsets: ["latin"],
-weight: ["400"]
-});
 
 export const metadata: Metadata = {
   title: "Venil portfolio",
@@ -23,7 +18,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={font.className}>
+        <body className={GeistSans.className}>
           <ThemeProvider
             attribute="class"
             defaultTheme="system"

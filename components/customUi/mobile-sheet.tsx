@@ -76,13 +76,8 @@ const MobileSheet = () => {
             <SheetContent side={"left"}>
                 <SheetHeader>
                     <SheetTitle>
-                        <div className="flex items-center gap-x-3">
-                            <img
-                                src="/me.jpeg"
-                                alt="me"
-                                className="h-12 w-12 rounded-full object-cover cursor-pointer"
-                            />
-                            <div>
+                        <div className="flex gap-x-3">
+                            <div className="text-start">
                                 <div className="text-xl font-semibold">Venil Sutariya</div>
                                 <div className="text-sm text-foreground">Build something great!</div>
                             </div>

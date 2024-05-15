@@ -25,7 +25,7 @@ const ResumePage = () => {
     };
 
     return ( 
-        <div className="px-5 lg:px-20 min-h-[76vh] flex justify-center items-center">
+        <div className="px-5 lg:px-20 min-h-[72vh] flex justify-center items-center">
             <Button className="gap-x-3" onClick={handleDownload}>
                 <Download /> Export Resume
             </Button>

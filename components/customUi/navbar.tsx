@@ -10,11 +10,6 @@ export const Navbar = () => {
         <div className="border-b px-3 py-4 backdrop-blur-xl bg-white/50 dark:bg-black/50">
             <div className="flex justify-between items-center">
                 <div className="lg:flex hidden items-center gap-x-3">
-                    <img
-                        src="/me.jpeg"
-                        alt="me"
-                        className="h-12 w-12 rounded-full object-cover cursor-pointer"
-                    />
                     <div>
                         <div className="text-xl font-semibold">Venil Sutariya</div>
                         <div className="text-sm text-foreground">Build something great!</div>

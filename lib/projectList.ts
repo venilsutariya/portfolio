@@ -1,5 +1,12 @@
 export const projectList = [
   {
+    name: "Sitenote",
+    tech: "React.js, Node.js ,MongoDB, Tailwind, shadcn/ui",
+    imageUrl: "/images/sitenote.png",
+    filter: "React.js,Node.js,MongoDB,Tailwind,firebase",
+    href: "https://sitenote.in"
+  },
+  {
     name: "Discord Clone",
     tech: "Next.js, React.js, Shadcn, Typescript, Tailwind",
     imageUrl: "/images/discord-clone.webp",
@@ -29,7 +36,7 @@ export const projectList = [
   },
   {
     name: "Next Auth",
-    tech: "Next.js 13, React.js, Tailwind, Shadcn-ui",
+    tech: "Next.js 13, React.js, Tailwind, shadcn/ui",
     imageUrl: "/images/nextauth.png",
     href: "https://github.com/venilsutariya/Next-Auth",
     filter: "Next.js,Tailwind,Next Auth,Typescript",
@@ -54,11 +61,5 @@ export const projectList = [
     imageUrl: "/images/ecommerce.webp",
     href: "https://github.com/venilsutariya/E-commerce",
     filter: "React.js,Node.js,MongoDB",
-  },
-  {
-    name: "Sitenote",
-    tech: "React.js, Node.js ,MongoDB, Tailwind",
-    imageUrl: "/images/sitenote.png",
-    filter: "React.js,Node.js,MongoDB,Tailwind,firebase",
   },
 ];
