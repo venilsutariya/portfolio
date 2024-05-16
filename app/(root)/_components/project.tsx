@@ -15,7 +15,7 @@ const Projects = ({ filter }: ProjectsProps) => {
                     // Checking if the filter is "All" or if the project's filter matches the provided filter
                     if (filter === "All" || filterArray.includes(filter)) {
                         return (
-                            <div className='pb-16 relative rounded-2xl overflow-hidden border' key={index}>
+                            <div className='z-[-1] pb-16 relative rounded-2xl overflow-hidden border' key={index}>
                                 <div className='custom-aspect-ratio'>
                                     <div className="h-full w-full">
                                         <img src={p.imageUrl} className='object-cover imageani w-full h-full' alt="" />

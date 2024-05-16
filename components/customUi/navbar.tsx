@@ -7,7 +7,7 @@ import { Loader } from "lucide-react";
 export const Navbar = () => {
 
     return (
-        <div className="border-b px-3 py-4 backdrop-blur-xl bg-white/50 dark:bg-black/50">
+        <div className="z-50 border-b px-3 py-4 backdrop-blur-xl bg-white/50 dark:bg-black/50">
             <div className="flex justify-between items-center">
                 <div className="lg:flex hidden items-center gap-x-3">
                     <div>
