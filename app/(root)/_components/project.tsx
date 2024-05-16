@@ -15,7 +15,7 @@ const Projects = ({ filter }: ProjectsProps) => {
                     // Checking if the filter is "All" or if the project's filter matches the provided filter
                     if (filter === "All" || filterArray.includes(filter)) {
                         return (
-                            <div className='rounded-2xl overflow-hidden border' key={index}>
+                            <div className='pb-16 relative rounded-2xl overflow-hidden border' key={index}>
                                 <div className='custom-aspect-ratio'>
                                     <div className="h-full w-full">
                                         <img src={p.imageUrl} className='object-cover imageani w-full h-full' alt="" />
@@ -25,7 +25,7 @@ const Projects = ({ filter }: ProjectsProps) => {
                                     <div className='text-xl sm:text-lg md:text-xl lg:text-lg xl:text-xl font-semibold'>{p.name}</div>
                                     <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div>
                                 </div>
-                                <div className="mt-4 mb-3 px-3">
+                                <div className="absolute bottom-4 px-3">
                                     {p.name !== "Sitenote" ? (
                                         <a href={p.href} className="no-underline text-black dark:text-white" target="_blank" rel="noreferrer">
                                             <Button variant={"outline"}>
