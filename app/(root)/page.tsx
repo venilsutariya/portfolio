@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <FilterButtons filter={filter} setFilter={setFilter} />
-     <div className="px-5 lg:px-20">
+     <div className="z-10 px-5 lg:px-20">
         <Projects filter={filter} />
         <WhatIKnow />
         <LiveProject />

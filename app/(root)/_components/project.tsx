@@ -8,20 +8,20 @@ interface ProjectsProps {
 const Projects = ({ filter }: ProjectsProps) => {
 
     return (
-        <>
+        <div className="z-10">
             <div className="my-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                 {projectList.map((p, index) => {
                     const filterArray = p.filter.split(","); // Splitting the filter string into an array
                     // Checking if the filter is "All" or if the project's filter matches the provided filter
                     if (filter === "All" || filterArray.includes(filter)) {
                         return (
-                            <div className='z-[-1] pb-16 relative rounded-2xl overflow-hidden border' key={index}>
+                            <div className='pb-16 relative rounded-2xl overflow-hidden border' key={index}>
                                 <div className='custom-aspect-ratio'>
                                     <div className="h-full w-full">
                                         <img src={p.imageUrl} className='object-cover imageani w-full h-full' alt="" />
                                     </div>
                                 </div>
-                                <div className='bg-white text-black dark:bg-zinc-950 dark:text-white p-3'>
+                                <div className=' bg-white text-black dark:bg-zinc-950 dark:text-white p-3'>
                                     <div className='text-xl sm:text-lg md:text-xl lg:text-lg xl:text-xl font-semibold'>{p.name}</div>
                                     <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div>
                                 </div>
@@ -45,7 +45,7 @@ const Projects = ({ filter }: ProjectsProps) => {
                     }
                 })}
             </div>
-        </>
+        </div>
     );
 }
 
