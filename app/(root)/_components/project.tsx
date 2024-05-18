@@ -33,9 +33,11 @@ const Projects = ({ filter }: ProjectsProps) => {
                                             </Button>
                                         </a>
                                     ) : (
-                                        <Button variant={"outline"} className="text-black dark:text-white">
-                                            Go to website
-                                        </Button>
+                                        <a href={p.href} className="no-underline text-black dark:text-white" target="_blank" rel="noreferrer">
+                                            <Button variant={"outline"}>
+                                                Go to website
+                                            </Button>
+                                        </a>
                                     )}
                                 </div>
                             </div>
