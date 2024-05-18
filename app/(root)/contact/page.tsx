@@ -33,7 +33,6 @@ const Contact = () => {
     return (
         <div className="px-5 lg:px-20 w-full flex min-h-[76vh] flex-col items-center justify-center">
             <div className="bg-gray-100 w-full lg:w-[600px] dark:bg-zinc-900/50 p-10 rounded-2xl">
-                <h1 className="text-3xl text-center font-semibold mb-10">Contact</h1>
                 <form className="mb-5 w-full" onSubmit={handleSubmit(onSubmit)}>
                     <div>
                         <label className="font-semibold px-1">Email</label>
