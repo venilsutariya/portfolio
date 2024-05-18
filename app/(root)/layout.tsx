@@ -11,7 +11,7 @@ const RootLayout = ({
     return (
         <main>
             <div className="flex flex-col h-full">
-                <div className=" sticky top-0">
+                <div className="z-50 sticky top-0">
                     <Navbar />
                 </div>
                 <div className="flex flex-1">
