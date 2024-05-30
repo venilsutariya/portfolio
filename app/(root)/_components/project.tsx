@@ -22,8 +22,8 @@ const Projects = ({ filter }: ProjectsProps) => {
                                     </div>
                                 </div>
                                 <div className=' bg-white text-black dark:bg-zinc-950 dark:text-white p-3'>
-                                    <div className='text-xl sm:text-lg md:text-xl lg:text-lg xl:text-xl font-semibold'>{p.name}</div>
-                                    <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div>
+                                    <div className='text-xl sm:text-lg md:text-xl lg:text-lg xl:text-xl font-[500]'>{p.name}</div>
+                                    {/* <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div> */}
                                 </div>
                                 <div className="absolute bottom-4 px-3">
                                     {p.name !== "Sitenote" ? (

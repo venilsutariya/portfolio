@@ -2,7 +2,7 @@ export const projectList = [
   {
     name: "Sitenote",
     tech: "React.js, Node.js ,MongoDB, Tailwind, shadcn/ui",
-    imageUrl: "/images/sitenote.png",
+    imageUrl: "/images/sitenote.webp",
     filter: "React.js,Node.js,MongoDB,Tailwind,firebase",
     href: "https://sitenote.in"
   },
