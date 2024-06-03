@@ -1,5 +1,12 @@
 export const projectList = [
   {
+    name: "Shilp",
+    tech: "Next.js, Node.js ,MongoDB, Tailwind, shadcn/ui",
+    imageUrl: "/images/shilp.png",
+    filter: "React.js,Node.js,MongoDB,Tailwind,firebase",
+    href: "https://shilp.co"
+  },
+  {
     name: "Sitenote",
     tech: "React.js, Node.js ,MongoDB, Tailwind, shadcn/ui",
     imageUrl: "/images/sitenote.webp",

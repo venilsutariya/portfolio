@@ -26,7 +26,7 @@ const Projects = ({ filter }: ProjectsProps) => {
                                     {/* <div className='text-sm sm:text-xs md:text-sm lg:text-sm xl:text-sm'>{p.tech}</div> */}
                                 </div>
                                 <div className="absolute bottom-4 px-3">
-                                    {p.name !== "Sitenote" ? (
+                                    {(p.name !== "Sitenote" && p.name !== "Shilp") ? (
                                         <a href={p.href} className="no-underline text-black dark:text-white" target="_blank" rel="noreferrer">
                                             <Button variant={"outline"}>
                                                 View Code
