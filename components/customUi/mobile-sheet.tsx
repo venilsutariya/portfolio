@@ -33,11 +33,11 @@ const MobileSheet = () => {
             icon: Compass,
             href: "/",
         },
-        {
-            name: "About",
-            icon: Info,
-            href: "/about",
-        },
+        // {
+        //     name: "About",
+        //     icon: Info,
+        //     href: "/about",
+        // },
         {
             name: "Social",
             icon: IoShareSocialSharp,
