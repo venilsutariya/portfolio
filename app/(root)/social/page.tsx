@@ -48,6 +48,7 @@ const SocialPage = () => {
             window.open(mailtoLink, "_blank");
         }
     }
+    
     return (
         <div className="px-5 lg:px-20 flex gap-x-10 min-h-[72vh] justify-center items-center">
             <TooltipProvider>
